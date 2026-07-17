@@ -1,0 +1,92 @@
+{
+  "_readme": "Fill in 'listing_url' for each suite with your real Etsy links. Add/edit image filenames under 'images' to match what you upload to the /images folder (or your GitHub-hosted image URLs once set up). Everything else can be edited freely to expand variety over time.",
+
+  "suites": [
+    {
+      "id": "calla_lily",
+      "display_name": "Calla Lily",
+      "theme_words": ["elegant", "modern", "romantic", "timeless"],
+      "listing_url": "PASTE_CALLA_LILY_BUNDLE_LISTING_URL_HERE",
+      "board": "Wedding Invitation Suites",
+      "images": ["calla_lily_bundle_1.jpg", "calla_lily_bundle_2.jpg"],
+      "hashtags": ["#callalilywedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#floralwedding", "#weddingsuite", "#cricutsvg", "#printthencut", "#weddinginspo"]
+    },
+    {
+      "id": "lily",
+      "display_name": "Lily",
+      "theme_words": ["classic", "graceful", "soft", "garden-inspired"],
+      "listing_url": "PASTE_LILY_BUNDLE_LISTING_URL_HERE",
+      "board": "Wedding Invitation Suites",
+      "images": ["lily_bundle_1.jpg"],
+      "hashtags": ["#lilywedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#gardenwedding", "#weddingsuite", "#cricutsvg", "#printthencut", "#weddingcards"]
+    },
+    {
+      "id": "freesia",
+      "display_name": "Freesia",
+      "theme_words": ["delicate", "whimsical", "fresh", "airy"],
+      "listing_url": "PASTE_FREESIA_BUNDLE_LISTING_URL_HERE",
+      "board": "Wedding Invitation Suites",
+      "images": ["freesia_bundle_1.jpg"],
+      "hashtags": ["#freesiawedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#springwedding", "#weddingsuite", "#cricutsvg", "#printthencut", "#weddingdiy"]
+    },
+    {
+      "id": "boho_peony",
+      "display_name": "Boho Peony",
+      "theme_words": ["boho", "earthy", "dreamy", "free-spirited"],
+      "listing_url": "PASTE_BOHO_PEONY_BUNDLE_LISTING_URL_HERE",
+      "board": "Boho Wedding Ideas",
+      "images": ["boho_peony_bundle_1.jpg"],
+      "hashtags": ["#bohowedding", "#peonywedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#weddingsuite", "#cricutsvg", "#printthencut", "#bohobride"]
+    },
+    {
+      "id": "hydrangea",
+      "display_name": "Hydrangea",
+      "theme_words": ["lush", "sage", "dusty blue", "botanical"],
+      "listing_url": "PASTE_HYDRANGEA_BUNDLE_LISTING_URL_HERE",
+      "board": "Wedding Invitation Suites",
+      "images": ["hydrangea_bundle_1.jpg"],
+      "hashtags": ["#hydrangeawedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#sagewedding", "#weddingsuite", "#cricutsvg", "#printthencut", "#botanicalwedding"]
+    },
+    {
+      "id": "seashell",
+      "display_name": "Seashell Nautical",
+      "theme_words": ["nautical", "coastal", "breezy", "seaside"],
+      "listing_url": "PASTE_SEASHELL_BUNDLE_LISTING_URL_HERE",
+      "board": "Beach Wedding Ideas",
+      "images": ["seashell_bundle_1.jpg"],
+      "hashtags": ["#nauticalwedding", "#beachwedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#weddingsuite", "#cricutsvg", "#printthencut", "#seasidewedding"]
+    },
+    {
+      "id": "coastal_villa",
+      "display_name": "Coastal Seaside Villa",
+      "theme_words": ["destination", "villa", "coastal", "sun-soaked"],
+      "listing_url": "PASTE_COASTAL_VILLA_BUNDLE_LISTING_URL_HERE",
+      "board": "Destination Wedding Ideas",
+      "images": ["coastal_villa_bundle_1.jpg"],
+      "hashtags": ["#destinationwedding", "#coastalwedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#weddingsuite", "#cricutsvg", "#printthencut", "#italywedding"]
+    },
+    {
+      "id": "daisy",
+      "display_name": "Daisy",
+      "theme_words": ["cheerful", "playful", "wildflower", "sunny"],
+      "listing_url": "PASTE_DAISY_BUNDLE_LISTING_URL_HERE",
+      "board": "Wedding Invitation Suites",
+      "images": ["daisy_bundle_1.jpg"],
+      "hashtags": ["#daisywedding", "#wildflowerwedding", "#weddinginvitationsvg", "#cricutwedding", "#diyweddinginvites", "#weddingstationery", "#weddingsuite", "#cricutsvg", "#printthencut", "#springwedding"]
+    }
+  ],
+
+  "description_templates": [
+    "This {theme_word} {suite_name} suite is a full matching set for your wedding stationery, made for Cricut Print Then Cut. Invitation, save the date, RSVP, and more, all designed to coordinate perfectly. Just download, print, and cut at home.",
+    "A complete {suite_name} wedding suite in {theme_word} tones, ready for Cricut Print Then Cut. Every piece is designed to match so your whole stationery lineup feels cohesive from the first envelope to the place cards.",
+    "Planning a {theme_word} wedding? This {suite_name} bundle gives you a full matching stationery suite for Cricut Print Then Cut, so you can create every piece yourself without hiring a designer.",
+    "Say hello to your new favorite {suite_name} wedding suite. {theme_word_cap} details throughout, built for Cricut Print Then Cut, and priced as a bundle so every piece matches without the extra cost of buying separately.",
+    "This {suite_name} suite brings {theme_word} style to your whole wedding stationery lineup, from the invitation sleeve to the place cards. Made for Cricut Print Then Cut and easy to customize at home."
+  ],
+
+  "title_templates": [
+    "{suite_name} Wedding Suite SVG Cricut Bundle {theme_word_cap}",
+    "{theme_word_cap} {suite_name} Cricut SVG Wedding Invitation Suite",
+    "{suite_name} Wedding Invitations SVG Cricut {theme_word_cap} Bundle"
+  ]
+}
