@@ -1,0 +1,39 @@
+name: Daily Pinterest Pins
+
+on:
+  schedule:
+    # Runs at 14:00 UTC every day - adjust to whenever you want your pins to go out
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}  # lets you also trigger it manually from the Actions tab
+
+jobs:
+  post-pins:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run poster
+        env:
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          IMAGE_BASE_URL: ${{ secrets.IMAGE_BASE_URL }}
+          PINS_PER_RUN: "10"
+          DRY_RUN: "0"
+        run: python pinterest_bot/generate_and_post.py
+
+      - name: Commit updated posting log
+        run: |
+          git config user.name "pinterest-bot"
+          git config user.email "actions@github.com"
+          touch pinterest_bot/posted_log.json
+          git add pinterest_bot/posted_log.json
+          git diff --staged --quiet || git commit -m "Update posted log [skip ci]"
+          git push
